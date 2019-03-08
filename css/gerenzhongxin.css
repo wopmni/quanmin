@@ -1,0 +1,300 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	font: 12px/1.5 "Microsoft YaHei",Arial,sans-serif;
+}
+.tou{
+	width: 100%;
+	height: 30px;
+	background-color: #333333;
+}
+.tou .tou1{
+	width: 1200px;
+	height: 30px;
+	background-color: #333333;
+	margin: 0px auto;
+} 
+.tou1 ul{
+	float: right;
+}
+.tou1 li{
+	float: left;
+	line-height: 30px;
+	height: 30px;
+	margin-left: 18px;
+	color: #b5b5b5;
+}
+.tou1 a{
+	color: #b5b5b5;
+}
+.tou1 a:hover{
+	color: white;
+}
+.bo{
+	width: 100%;
+	height: 102px;
+}
+.bo .bo1{
+	width: 1200px;
+	height: 80px;
+	margin: 0px auto;
+}
+.bo1 a{
+	width: 218px;
+	height: 60px;
+}
+#bo_daohang a:hover{
+	color: orangered;
+}
+#bo_daohang a{
+	color: #898989;
+}
+.bo1 img{
+	width: 65px;
+	height: 65px;
+	margin-top:20px ;
+	float: left;
+}
+.bo1 h1{
+	line-height: 80px;
+	height: 80px;
+	float: left;
+	margin-top: 10px;
+	font-size: 40px;
+    font-weight: 700;
+}
+.bo1 li span{
+	float: left;
+	display: inline-block;
+    height: 35px;
+    padding: 40px 20px 0;
+    font-size: 18px;
+    /*color: #898989;*/
+    text-align: center;
+}
+.bo1 ul{
+	margin-left: 50px;
+	float: left;
+	width: 500px;
+	height: 80px;
+}
+.shen{
+	width:100%;
+	height: 1130px;
+}
+.shen .shen1{
+	width: 1200px;
+	height: 300px;
+	margin: 0px auto;
+    background: url(../img/center_default.jpg) no-repeat center top;
+}
+.shen1 .shen1_1{
+	float: left;
+    width: 512px;
+    height: 120px;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.shen1 .shen1_1_img{
+	width: 116px;
+	height: 116px;
+	border-radius:50% ;
+	float: left;
+	border:1px solid white ;
+}
+.shen1_1 div{
+	float: left;
+	margin-left: 24px;
+	width: 300px;
+	height: 27px;
+	line-height: 27px;
+	font-size: 14px;
+	color: white;
+}
+.shen1_1 .shen1_1_1{
+	height: 51px;
+	line-height: 51px;
+	font-size: 24px;
+}
+.shen1_1_3 a{
+	color: white;
+}
+.shen1_1_3 a:hover{
+	color: orangered;
+}
+.shen1_1_1 .shen1_1_1_img{
+	width: 56px;
+	height: 24px;
+}
+.shen .shen1_2{
+	width: 275px;
+	height: 30px;
+	float: right;
+    margin-top: 135px;
+    margin-right: -30px;
+}
+.shen1_2 a{
+	float: left;
+	text-align: center;
+	width: 88px;
+	height: 30px;
+	margin-left: 10px;
+	font-size: 14px;
+    line-height: 28px;
+    color: white;
+    border:1px solid white ;
+    
+}
+.shen1_2 a:hover{
+	background-color: #9199A0;
+}
+.shen1_2 a:last-child{
+	width: 60px;
+}
+.shen .shen1_3{
+	width: 115px;
+	height: 30px;
+	float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.shen1_3 img{
+	width: 26px;
+	height: 26px;
+	border-radius:8px ;
+	margin-left: 9px;
+	
+}
+.shen2{
+	    margin-bottom: 30px;
+	    
+}
+.shen2 ul{
+	border: 1px solid #dfe3e6;
+	width: 1198px;
+	height: 41px;
+	margin: 0px auto;
+    overflow: hidden;
+    zoom: 1;
+    text-align: center;	
+}
+.shen2 ul li{
+	float: left;
+	width: 308px;
+	height: 40px;
+}
+
+.shen2 a{
+	float: left;
+	width: 140px;
+	height: 38px;
+	margin-left: 84px;
+	line-height: 38px;
+
+}
+.shen2 ul li:first-child{
+	margin-left: 138px;
+}
+
+.shen2 ul li a:hover{
+	color: orangered;
+}
+.shen2 ul li:first-child a{
+	height: 40px;
+	border-bottom: 2px solid orangered;
+	color: orangered;
+	
+}
+.shen3{
+	width: 1200px;
+	height: 750px;
+	margin: 0px auto;
+}
+.shen3 ul{
+	width: 1270px;
+	height: 690px;
+	margin: 0px auto;
+}
+.shen3 li{
+	float: left;
+	width: 317px;
+	height: 308px;
+	padding-bottom: 40px;
+}
+.shen3 img{
+	width: 247.5px;
+	height: 247.5px;
+	margin: 0px auto;
+} 
+.shen3 ul li p{
+	width: 247px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+.shen3 .shen3_span{
+	background-color: #e16054;
+    float: left;
+    margin: 5px 5px 0 0;
+    font-size: 8px;
+    color: #fff;
+    padding: 2px;
+    line-height: 1.1;
+}
+
+.shen3 ul li p:last-child{
+    overflow: hidden;
+    font-size: 14px;
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+}
+.shen3 ul li p:last-child img{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+.shen3 .shen3_2{
+	width: 1200px;
+	height: 64px;line-height: 64px;
+	clear: both;
+    text-align: center;
+    padding-top: 20px 0;
+}
+.shen3 .shen3_1 a:hover{
+	color: orangered;
+}
+.shen3 .shen3_2 a{
+	font-size: 14px;
+    color: #a3a3a3;
+}
+.wei{
+	padding: 14px 0;
+}
+.wei p{
+	height: 22px;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    font-family: Tahoma,Arial;
+    color: #6a6a6a;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+.wei p a{
+	 color: #6a6a6a;
+	 margin: 2px;
+}
+.wei p a:hover{
+	text-decoration: underline;
+}

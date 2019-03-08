@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+    var timePoints = {},rTime = {},rTimeBase =+new Date(),_speedNotReported = true;
+    </script>
+    <title>特性介绍 - 全民K歌</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="Tencent-ISUX-Music">
+    <meta name="Copyright" content="Tencent">
+    <meta name="keywords" content="特性,介绍,合唱,一起唱,独唱,K歌,K歌软件,在线K歌,唱歌,唱K,手机KTV,手机K歌,手机K歌软件,练歌,练歌软件,微信K歌神器,手机K歌神器,K歌软件哪个好" />
+    <meta name="description" content="熟人社交K歌应用，集合练歌模式、好友PK等特色功能，还能和好友互发弹幕互动，赶紧下载和小伙伴一起争夺擂主吧！" />
+    <meta name="applicable-device" content="pc,mobile">
+    <link rel="dns-prefetch" href="//imgcache.gtimg.cn">
+    <script type="text/javascript">
+    timePoints['cssbegin'] = +new Date();//css加载开始
+    </script>
+    <!--[if lte IE 8]><link href="//kg.qq.com/gtimg/mediastyle/kge_v2/ie8.css" rel="stylesheet" /><![endif]-->
+    <link href="//kg.qq.com/gtimg/mediastyle/kge_v2/down.css" rel="stylesheet" />
+    <style type="text/css">
+        .mod_down__show_1 {
+            -moz-opacity: 1;  
+            filter:alpha(opacity=100);
+            opacity: 1;
+        }
+        .mod_down__show_2 {
+            -moz-opacity: 0;  
+            filter:alpha(opacity=0);  
+            opacity: 0;
+        }
+    </style>
+    <style>
+      html{padding-bottom:constant(safe-area-inset-bottom);}
+    </style>      
+    <script type="text/javascript">
+    timePoints['cssend'] = +new Date();//css加载完成，head加载结束
+    </script>
+<script type="text/javascript">
+var g_ish5 = false;
+if(/android|iphone|ipad|ipod/ig.test(navigator.userAgent)){
+	g_ish5 = true;
+}
+
+function includeStyleElement(styles,styleId) {
+
+	if (document.getElementById(styleId)) {
+		return
+	}
+	var style = document.createElement("style");
+	style.id = styleId;
+	(document.getElementsByTagName("head")[0] || document.body).appendChild(style);
+	if (style.styleSheet) { //for ie
+		style.styleSheet.cssText = styles;
+	} else {//for w3c
+		style.appendChild(document.createTextNode(styles));
+	}
+}
+</script>
+</head>
+<body>
+<!--头部 S-->
+<div class="mod_bar js_kg_head">
+</div>
+<!--头部 E-->
+<!--导航 S-->
+<div class="mod_nav js_kg_nav" data-navIndex=1><!--首屏时加上样式：mod_nav__light-->
+</div>
+<!--导航 E-->
+<div id="wrap" class="wrap" style="display:inline;">
+<!--主要内容 S-->
+    <div class="item item-1">
+        <div class="box" id="imgplayer">
+            <!--手机-->
+            <div class="mod_down__show mod_down__show_1">
+                <div class="mod_down__title">
+                    <h2 class="logo logo_version">全民K歌</h2>
+                    <h3 id="mobile_desc">炫酷说唱 好友打擂 全新玩法 等你来唱</h3>
+                </div>
+                <div class="mod_down__phone">
+                    <img class="mod_down__p1" src="//kg.qq.com/gtimg/mediastyle/kge_v2/img/feature/feature_1.jpg" alt="" />
+                    <img class="mod_down__p2" src="//kg.qq.com/gtimg/mediastyle/kge_v2/img/feature/feature_2.jpg" alt="" />
+                    <img class="mod_down__p3" src="//kg.qq.com/gtimg/mediastyle/kge_v2/img/feature/feature_3.jpg" alt="" />
+                    <img class="mod_down__pbg" src="//kg.qq.com/gtimg/mediastyle/kge_v2/img/feature/feature_phone.png" alt="" />
+                </div>
+            </div>
+            <!--pc,手机上不显示-->
+            <div class="mod_down__show mod_down__show_2 mod_down__show--current">
+                <div class="mod_down__title">
+                    <h2 class="logo logo_windows">全民K歌 Windows</h2>
+                    <h3 id="windows_desc">创新玩法  音效升级  等你来唱</h3>
+                </div>
+                <div class="mod_down__photo"><img src="//kg.qq.com/gtimg/mediastyle/kge_v2/img/feature_pc.png" alt="" /></div>
+            </div>
+            <div class="mod_down__con">
+                <h4 class="mod_version__title">下载客户端</h4>
+                <div class="mod_version__down png_fix">
+                    <a href="https://c.y.qq.com/r/7qZ5" target="_blank" class="mod_version__btn" id="down_pc"><em></em><span></span></a>
+                    <a href="https://c.y.qq.com/r/6ZOa" target="_blank" class="mod_version__btn" id="down_iphone"><em></em><span></span></a>
+                    <a href="https://c.y.qq.com/r/61AY" target="_blank" class="mod_version__btn" id="down_android"><em></em><span></span></a>
+                   
+                </div>
+            </div>
+            <div class="down_tab">
+                <div class="down_tab__list">
+                    <a href="#" class="down_tab__item down_tab__item--current"><span>1</span></a>
+                    <a href="#" class="down_tab__item"><span>2</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--主要内容 E-->
+</div>
+<!--二维码 S-->
+<div class="slider_code">
+    <div class="slider_code__bg"></div>
+    <img class="slider_code__img" src="//kg.qq.com/gtimg/mediastyle/kge_v2/img/down_qrcode.png" alt="" />
+    <p class="slider_code__info">扫二维码下载</p>
+</div>
+<!--二维码 E-->
+<!--尾部 S-->
+<div class="mod_footer" id="frame_bottom">
+    <!--这里是底部版权信息等，这里的内容由JS生成-->
+</div>
+<!--尾部 E-->
+<script type="text/javascript">
+//HTML加载完成
+window.addEventListener("DOMContentLoaded" ,function(){
+ timePoints['domready'] = +new Date(); //domready加载完成
+});
+timePoints['jsbegin'] = +new Date(); //js加载开始
+
+if(g_ish5){
+    var styles = ".item{width: 100%;height: 100%;overflow: hidden;position: absolute;}";
+    includeStyleElement(styles,"newstyle");
+    
+    document.write('<script type="text/javascript" charset="utf-8" src="//kg.qq.com/gtimg/music/live/zepto.js?max_age=31104000003"><\/script>');
+
+}else{
+    document.write('<script type="text/javascript" charset="utf-8" src="//kg.qq.com/gtimg/music/js/lib/jquery-min.js?max_age=31104000000"><\/script>');
+    document.write('<script type="text/javascript" charset="utf-8" src="//kg.qq.com/gtimg/music/kg/lib/imgplayer.js?max_age=31104000000"><\/script>');
+}
+</script>
+<!--要引入的JS文件，这个文件用来动态生成页面的头部和底部，最终这个文件会在服务端合并请开发删除-->
+<script type="text/javascript" src="//kg.qq.com/gtimg/music/kg/lib/sea-kg.js?max_age=31104000000"></script>
+<script>
+document.domain = 'qq.com';
+//错误上报
+seajs.config({
+    base: '//kg.qq.com/gtimg/music/kg',
+    timeout: 8000
+});
+var list = [
+    '/music/kg/lib/common.js',
+    '/music/kg/lib/appcommon.js',
+    '/music/kg/lib/user.js',
+    '/music/kg/lib/lazy.js'
+]
+
+if(g_ish5){
+	list.push('/music/kg/lib/slider.js');
+}
+document.write('<script type="text/javascript" charset="utf-8" src="\/\/kg.qq.com\/gtimg\/c\/='+ list.join(',') +'?max_age=31104000007"><\/script>');
+</script>
+<script>
+define('config', function(){
+    return {
+        share : {
+            title:'全民K歌App下载，K歌擂台等你来战！',
+            content:'熟人社交K歌应用，集合练歌模式、好友PK等特色功能，还能和好友互发弹幕互动，赶紧下载和小伙伴一起争夺擂主吧！',
+            img_url:location.protocol + '//kg.qq.com/gtimg/mediastyle/mobile/kge/extra/qzone.png',
+            summary:'熟人社交K歌应用，集合练歌模式、好友PK等特色功能，还能和好友互发弹幕互动，赶紧下载和小伙伴一起争夺擂主吧！',
+            link:location.protocol + '//kg.qq.com/?_wv=1'
+       },
+       download : 'https://c.y.qq.com/r/4NVP'
+   }
+});
+
+define('main',function(require, exports, module){
+
+	var config = require('config');
+    var user = require('lib/user');
+    var common = require('lib/common');
+    var lazy = require('lib/lazy');
+	var slider = require('lib/slider');
+    exports = module.exports = {
+        init:function(){
+	        this.getFeature();
+			
+            user.init({
+                callback : function(){
+                    $('.j_follow').hide();
+                }
+            });
+            this.bind();
+            //pv上报
+            common.pv();
+            if(g_ish5){
+                common.luopanPv(247,247015);
+            }
+        },
+        getFeature : function(){
+            common.ajax({
+                url : 'http://imgcache.gtimg.cn/mediastyle/musiccm/kg/kg_feature.js',
+                jsonp : 'jsonpCallback',
+                jsonpCallback : 'featureCallback',
+                success : function(res){
+                    exports.renderFeature(res.data);
+                },
+                error : function(r){
+                
+                }
+            });
+        },
+        renderFeature : function(data){
+            var htm = '';
+
+            $.each(data.feature_list,function(index,item){
+                    htm += [
+                    '<div class="item item-'+(index+2)+'">',
+                        '<div class="box">',
+                            '<div class="feature_show">',
+                                '<div class="feature_info">',
+                                    '<p class="feature_info__title">'+item.title+'</p>',
+                                    '<p class="feature_info__txt">'+item.desc+'</p>',
+                                '</div>',
+                                '<div class="feature_photo">',
+                                    '<img class="feature_photo__img" src="//kg.qq.com/gtimg/mediastyle/kge_v2/img/feature/feature_'+(index+1)+'.jpg?=" alt="" />',
+                                    '<div class="feature_icon">',
+                                        '<img class="feature_icon__img" src="//kg.qq.com/gtimg/mediastyle/kge_v2/img/feature/feature_'+(index+1)+'.png" alt="" />',
+                                    '</div>',
+                                '</div>',
+                            '</div>',
+                        '</div>',
+                    '</div>'
+                    ].join(""); 
+            });
+
+
+
+            //kg ios隐藏下载链接
+            if($.os && $.os.ios && $.platform.qmkege){
+                $("#down_android, #down_pc").hide();
+                $('.mod_version__down').css({height:'auto', '    background-position-x' : '50%'})
+            }
+
+            $('.wrap').append(htm);
+            $('#down_pc span').text('Windows版 V'+data.version_pc);
+            $('#down_android span').text('Android版 V'+data.version_android);
+            $('#down_iphone span').text('iPhone版 V'+data.version_ios);
+            $('#windows_desc').text(data.windows_desc);
+            $('#mobile_desc').text(data.mobile_desc);
+
+            if(g_ish5){
+                exports.initH5();
+            } else {
+               imgPlayer.init({
+                    container : $('#imgplayer'),
+                    imgarealist : $('.mod_down__show'),
+                    iconlist : $('.down_tab__list a'),
+                    iconclass : 'down_tab__item--current',
+                    imgclass : 'mod_down__show--current',
+                    iconevent : 'mouseover',
+                    time : 3000,
+                    lazyload : false
+                });
+               exports.initPC();
+            }
+        },
+        bind : function (){
+            $(document.body)
+            .on('click', '.j_follow', function(e){
+                if(!user.isLogin()){
+                    user.login();
+                    return;
+                }
+                common.ajax({
+                    url : '/fcgi-bin/fcg_appointment',
+                    jsonp : 'callback',
+                    jsonpCallback : 'MusicJsonCallback',
+                    data : {
+                        follow : 'true'
+                    },
+                    success : function(res){
+                        alert('关注成功!');
+                    },
+                    error : function(){
+                        alert('网络错误，请稍后重试！');
+                    }
+                })
+            })
+            .on('click', '.mod_popup__close', function(){
+                $(this).parents('.mod_popup').hide();
+            })
+            .on('click', '.j_scroll', function(){
+                $('body, html').scrollTop(0);
+            })
+            .on('click', '.mod_nav__toggle', function(){
+               $('.mod_nav__list').toggle();
+                return false;
+            })
+            .on('click','.j_download',function(){    
+				common.openApp('qmkege://kege.com?action=home');
+            })
+            .on('click','#down_pc,#down_iphone,#down_android',function(){
+                var str = '',id = $(this).attr('id');
+                str = id == 'down_pc' ? 'kgintro.download.pc' : (id == 'down_iphone' ? 'kgintro.download.iphone' : 'kgintro.download.android');
+                common.hotClick(str);
+            });
+
+            if(!exports.dospeed){
+                exports.dospeed = true;
+                timePoints['active'] = new Date().getTime();
+                if(location.protocol == 'https:'){
+                    common.speed(1608,1,26);
+                } else {
+                    common.speed(1608,1,25);  
+                }
+            }
+			
+        },
+		initH5:function(){
+			
+			exports.initSlider();
+			common.setShare(config.share);
+
+		},	
+		initSlider:function(){
+			
+			exports.pageSlider = new slider({
+				wrap : $('.wrap'),
+				pages : '.item',
+				dir : 'y',
+				duration : 300,
+				onChange : function(index){
+					
+				},
+				onNextEnd : function(){
+
+				}
+			});
+			document.body.scrollTop = 0;	
+		},
+        configScroll:{
+            scrollTimer:null,
+            scrollTop:0,
+            scrollItem:0
+        },
+        initPC:function () {//pc端滚动动画
+            $('body').scrollTop(0);
+            var $item = $('.item'),
+                $icon = $('.feature_icon'),
+                top = [];
+            for(var i = 0, len = $icon.length; i < len; i++ ){
+                var tmp = $icon.eq(i).offset().top;
+                top.push(tmp);
+            }
+            $(window).scroll(function() {
+                if (!exports.configScroll.scrollTimer) {
+                    exports.configScroll.scrollTimer = setTimeout(function () {
+                        var bodyTop = $('body').scrollTop() + $(window).height();
+                        exports.configScroll.scrollTimer = null;
+
+                        if (bodyTop > top[exports.configScroll.scrollItem]+50) {
+                            $item.eq(exports.configScroll.scrollItem+1).addClass('play');
+                            exports.configScroll.scrollItem++;
+                            if (exports.configScroll.scrollItem > 5) {exports.configScroll.scrollItem = 5;return;}
+                        }
+                    }, 500);
+                }
+            });
+        }
+    }
+    exports.init();
+});
+
+seajs.use('main');
+</script>
+<!--[if IE 6]><script type="text/javascript" src="//kg.qq.com/gtimg/mediastyle/kge_v2/sprite/DD_belatedPNG_0.0.8a.js"></script><![endif]-->
+<script>
+timePoints['jsend'] = +new Date(); //js加载完成
+</script>
+</body>
+</html>
+DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
